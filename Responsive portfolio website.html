@@ -1,0 +1,120 @@
+<!--Create a Personal Portfolio Website:
+
+Design a homepage that showcases your personal information, skills, projects, and contact details. • Use Bootstrap's grid system to structure the layout and make it responsive.
+
+• Apply CSS to customize the design, such as choosing fonts, colors, and adding animations.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Your Name - Portfolio</title>
+
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .jumbotron {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project-card {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="jumbotron">
+                <h2>Hello, I'm Your Name!</h2>
+                <p>Welcome to my personal portfolio. I'm a web developer passionate about creating awesome websites.</p>
+            </div>
+
+            <h3>Skills</h3>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <!-- Add more skills as needed -->
+            </ul>
+
+            <h3>Projects</h3>
+            <div class="card-deck">
+                <div class="card project-card">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Description of Project 1.</p>
+                    </div>
+                </div>
+                <div class="card project-card">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Description of Project 2.</p>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name - Web Developer. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js scripts (required for Bootstrap features) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
